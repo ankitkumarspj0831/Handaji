@@ -8,7 +8,7 @@ const app = express();
 const homeRouter = require("./routes/home");
 const addNewRouter = require("./routes/addNew");
 
-const MONGODB_URI = "mongodb+srv://ankitbuppy:buppybuppy@cluster0.cugpg.mongodb.net/handaji";
+const MONGODB_URI = "";
 
 app.use(cors());
 app.use(bodyParser.json());
